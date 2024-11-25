@@ -1,6 +1,4 @@
 FROM eclipse-temurin:21-jdk-jammy
-RUN useradd -m appuser
-USER appuser
 WORKDIR /app
 COPY h2 /app/h2
 EXPOSE 9092
